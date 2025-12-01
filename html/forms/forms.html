@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+    </div>
+    <br />
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+    </div>
+    <br />
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="number" min="18" max="60" />
+    </div>
+    <br />
+    <div>
+      <label for="file">Upload a file</label>
+      <input type="file" id="file" name="file" />
+    </div>
+    <br />
+    <div>
+      <label for="message">Message:</label>
+      <textarea
+        maxlength="300"
+        rows="5"
+        cols="15"
+        id="message"
+        name="message"
+      ></textarea>
+    </div>
+    <br />
+    <div>
+      <label for="gender">Gender:</label>
+      <select>
+        <option value="male" name="gender" id="gender">Male</option>
+        <option value="female" name="gender" id="gender">Female</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="hobbies">Hobbies:</label>
+      <br />
+      <input type="checkbox" value="Reading" id="reading" name="hobbies" />
+      <label for="reading">Reading</label>
+      <br />
+      <input
+        type="checkbox"
+        value="Travelling"
+        name="hobbies"
+        id="travelling"
+      />
+      <label for="travelling">Travelling</label>
+      <br />
+      <input type="checkbox" value="Gaming" />Gaming
+      <br />
+    </div>
+    <br />
+    <div>
+      <label for="color">Favourite Color:</label>
+      <br />
+      <input type="radio" value="red" name="=color" />Red
+      <br />
+      <input type="radio" value="Blue" name="=color" />Blue
+      <br />
+      <input type="radio" value="Green" name="=color" />Green
+      <br />
+    </div>
+    <br />
+    <button type="submit">Submit</button>
+  </body>
+</html>
