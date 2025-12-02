@@ -1,0 +1,11 @@
+{
+  "name": "01-techgear-inventory-dashboard",
+  "version": "0.1.0",
+  "description": "Personal Portfolio Showcase (Build New - Semantic-Driven Layout)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --open=./index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

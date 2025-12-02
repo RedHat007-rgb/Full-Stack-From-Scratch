@@ -1,0 +1,12 @@
+{
+  "name": "02-freshbite-recipe-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --open=./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
